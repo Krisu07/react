@@ -102,7 +102,6 @@ tr:hover {
     max-width: 100%; 
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
     .container {
         padding: 10px; 
