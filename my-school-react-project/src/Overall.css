@@ -95,7 +95,13 @@ tr:nth-child(even) {
 tr:hover {
     background-color: #e0e0e0; 
 }
-  
+
+.logo {
+    width: 150px; 
+    height: auto; 
+    max-width: 100%; 
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .container {
