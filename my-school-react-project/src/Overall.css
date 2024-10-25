@@ -11,6 +11,10 @@ body {
     margin: 0 auto; 
     padding: 20px; 
 }
+.header h1{
+    color:#333;
+    font-weight: bold;
+}
   
 .header {
     background-color: pink; 
@@ -80,7 +84,7 @@ table {
   
 th, td {
     padding: 10px; 
-    text-align: left; 
+    text-align: center; 
 }
   
 th {

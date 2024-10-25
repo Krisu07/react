@@ -3,9 +3,10 @@ import React, { useState } from 'react';
 import Header from './Header';
 import ProductForm from './ProductForm';
 import OrderInfo from './OrderInfo';
-import logo from '../Pictures/fruits.jpg'; // Assuming logo is in the assets folder
+import logo from '../Pictures/fruits.jpg'; 
 
 const MainComponent = () => {
+  //tuotteet//
   const products = [
     { name: 'Toilet Paper', price:  3},
     { name: 'Cookies', price: 2 },
