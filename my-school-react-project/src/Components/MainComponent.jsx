@@ -13,6 +13,9 @@ const MainComponent = () => {
     { name: 'Cat Food', price: 4 },
     { name: 'Dog Food 1kg', price: 6 },
     { name: 'Dog Food 12kg', price: 65 },
+    { name: 'Loose Candies 1kg', price: 10 },
+    { name: 'New Phone', price: 199 },
+    { name: 'Flower Bouquet', price: 50 },
   ];
 
   const [order, setOrder] = useState({ product: products[0], quantity: 1 });
