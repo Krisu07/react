@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif; 
+    background-color: #f0f0f0; 
+    margin: 0; 
+    padding: 0; 
+    color: #333; 
+}
+  
+.container {
+    max-width: 1200px; 
+    margin: 0 auto; 
+    padding: 20px; 
+}
+  
+.header {
+    background-color: pink; 
+    color: white; 
+    padding: 15px; 
+    text-align: center;
+    border-radius: 8px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+}
+  
+.product-form {
+    background-color: white; 
+    padding: 20px; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    margin-bottom: 20px; 
+}
+  
+.product-form label {
+    display: block; 
+    margin-bottom: 10px; 
+}
+  
+.product-form select {
+    margin: 5px 0; 
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    width: 100%;
+    cursor: pointer; 
+}
+
+.product-form button {
+    margin: 5px; 
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px;
+    width: auto; 
+    cursor: pointer; 
+    flex-shrink: 0; 
+}
+
+.product-form button:hover {
+    background-color: pink; 
+    color: white; 
+}
+
+.order-info {
+    margin: 20px 0;
+    padding: 15px; 
+    border: 1px solid #ccc; 
+    border-radius: 8px; 
+    background-color: white; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+  
+.order-info h2 {
+    margin-bottom: 15px; 
+    font-size: 24px; 
+    color: #333; 
+}
+  
+table {
+    width: 100%; 
+    border-collapse: collapse;
+}
+  
+th, td {
+    padding: 10px; 
+    text-align: left; 
+}
+  
+th {
+    background-color: pink; 
+    color: white; 
+}
+  
+tr:nth-child(even) {
+    background-color: #f2f2f2; 
+}
+  
+tr:hover {
+    background-color: #e0e0e0; 
+}
+  
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px; 
+    }
+}
