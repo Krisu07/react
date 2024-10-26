@@ -1,4 +1,3 @@
-// MainComponent.jsx
 import React, { useState } from 'react';
 import Header from './Header';
 import ProductForm from './ProductForm';
@@ -18,20 +17,6 @@ const MainComponent = () => {
     { name: 'New Phone', price: 199 },
     { name: 'Flower Bouquet', price: 50 },
   ];
-
-  const [order, setOrder] = useState({ product: products[0], quantity: 1 });
-
-  const handleOrderChange = (product, quantity) => {
-    setOrder({ product, quantity });
-  };
-
-  return (
-    <div className="product-page">
-      <Header image={logo} title="Welcome to product page!" />
-      <ProductForm products={products} onOrderChange={handleOrderChange} />
-      <OrderInfo product={order.product} quantity={order.quantity} />
-    </div>
-  );
-};
+}
 
 export default MainComponent;
