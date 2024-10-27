@@ -8,11 +8,6 @@ function App() {
       <h1>Cat Facts</h1>
       <RandomCatFact />
       <NewFactButton />
-
-      <img
-        src=".Pictures/cat.jpg" 
-        className="cat-image" 
-      />
     </div>
   );
 }
