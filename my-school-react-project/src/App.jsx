@@ -1,5 +1,5 @@
 import React from 'react';
-import CatFact from './Code/CatFact';
+import CatFact from './Components/CatFact';
 
 function App() {
   return (
