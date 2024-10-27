@@ -1,21 +1,22 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 
-function RandomCatFact() {
+function CatFact() {
   const [fact, setFact] = useState('');
 
-  useEffect(() => {
+  const fetchNewFact = () => {
     fetch('https://cat-fact.herokuapp.com/facts/random')
       .then(response => response.json())
       .then(data => setFact(data.text))
-      .catch(error => console.error("Error fetching cat fact:", error));
-  }, []);
+      .catch(error => console.error("Error fetching new cat fact:", error));
+  };
 
   return (
     <div>
-      <h2>Random Cat Fact</h2>
-      <p>{fact || 'Loading...'}</p>
+      <h2>Get Another Cat Fact</h2>
+      <button onClick={fetchNewFact}>New Fact</button>
+      <p>{fact || 'Click the button to load a fact!'}</p>
     </div>
   );
 }
 
-export default RandomCatFact;
+export default CatFact;
